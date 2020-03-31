@@ -8,9 +8,17 @@
   <component name="ChangeListManager">
     <list default="true" id="2522a9eb-5c7a-4a1b-ac91-cd8b0240ec5c" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/java/com/yinpinghua/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/generatorConfig.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../springwebdemo/src/main/java/com/yinpinghua/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qs-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../qs-app/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../qs-web/target/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../qs-web/target/classes/jdbc.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../qs-web/target/classes/redis.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../qs-web/target/classes/redis.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../qs-web/target/classes/webside.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../qs-web/target/classes/webside.properties" afterDir="false" />
@@ -30,7 +38,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -50,12 +58,16 @@
     <servers />
   </component>
   <component name="ProjectId" id="1ZnwtUPozvxyIgzIT6YbKvxi6zJ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585481835975" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -64,10 +76,10 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.42643678" />
-    <property name="settings.editor.selected.configurable" value="spring" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -88,6 +100,11 @@
         <artifact name="Spring_MVC:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/Spring_MVC_war_exploded" />
+          </settings>
+        </artifact>
+        <artifact name="Spring_MVC:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Spring_MVC_war" />
           </settings>
         </artifact>
       </deployment>
@@ -151,6 +168,7 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="Spring_MVC:war exploded" />
+          <artifact name="Spring_MVC:war" />
         </option>
       </method>
     </configuration>
@@ -174,6 +192,9 @@
       <workItem from="1585488401463" duration="322000" />
       <workItem from="1585488815508" duration="1558000" />
       <workItem from="1585539900503" duration="2718000" />
+      <workItem from="1585652793626" duration="506000" />
+      <workItem from="1585653384581" duration="1226000" />
+      <workItem from="1585654638606" duration="3278000" />
     </task>
     <servers />
   </component>
@@ -192,5 +213,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
