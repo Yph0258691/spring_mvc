@@ -128,6 +128,15 @@
           <verbose>true</verbose>
           <overwrite>true</overwrite>
         </configuration>
+        <!-- 数据库驱动  -->
+        <!--直接在这里配置相应的数据库驱动文件-->
+        <dependencies>
+          <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.19</version>
+          </dependency>
+        </dependencies>
         <executions>
           <execution>
             <id>Generate MyBatis Artifacts</id>
