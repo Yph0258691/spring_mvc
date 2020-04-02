@@ -1,0 +1,1 @@
+https://github.com/KevinXie0131/SpringMVC-Spring-MyBatis/blob/master/src/main/resources/generatorConfig.xml
